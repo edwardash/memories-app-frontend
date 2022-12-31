@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const API = axios.create({ baseURL: 'https://memories-app-backend-edwardash.vercel.app/' });
+const API = axios.create({ baseURL: 'https://memories-app-backend-i3tz.onrender.com/' });
 
 
 API.interceptors.request.use(
